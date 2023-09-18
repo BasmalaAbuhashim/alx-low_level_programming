@@ -8,9 +8,10 @@
  */
 int _atoi(char *s)
 {
-	int c = 0,min = 1,isi = 0;
+	int c = 0, min = 1, isi = 0;
 	unsigned int ni = 0;
-	while (s[c]){
+	while (s[c])
+	{
 		if (s[c] == 45)
 		{
 			min *= -1;
